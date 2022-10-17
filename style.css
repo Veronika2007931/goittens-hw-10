@@ -143,6 +143,7 @@ color:var(--primary-text-color);
     background-image: url(./images/vector/email2.svg);
     background-size: contain;
     text-align: center;
+    
 }
 
 .number::before{
@@ -235,28 +236,32 @@ justify-content: space-between;
 }
 
 /* наша команда */
-.svgstile{
+.sosialmedia{
+    display: flex;
+}
+
+.svglist{
     display: inline-flex;
     width: 44px;
     height: 44px;
-    border: 1px solid tomato;
-    /* justify-content: center; */
-    /* align-items: center; */
+    
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background-color: #fff;
     color:#AFB1B8;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     
 }
-#icon-facebook{
+.svgstyle{
     width: 20px;
     height: 20px;
     fill: currentColor;
 }
 
-.svgstile:hover,
-.svgstile:focus{
+.svglist:hover,
+.svglist:focus{
     background-color: #2196F3;
     color: white;
 }
